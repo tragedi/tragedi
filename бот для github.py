@@ -20,3 +20,4 @@ for event in longpoll.listen():
                 random_id=random.randint(1, 2147483647),
             )
 
+print ('hello')
