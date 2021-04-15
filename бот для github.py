@@ -16,7 +16,7 @@ for event in longpoll.listen():
 
             vk.messages.send(
                 user_id=event.user_id,
-                message=mes[random.randint(0, 2)],
+                message=mes[random.randint(0, 4)],
                 random_id=random.randint(1, 2147483647),
             )
 
