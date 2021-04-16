@@ -19,5 +19,3 @@ for event in longpoll.listen():
                 message=mes[random.randint(0, 4)],
                 random_id=random.randint(1, 2147483647),
             )
-
-print ('hello world')
